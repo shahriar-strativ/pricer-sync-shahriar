@@ -1,0 +1,8 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="8" fill="#5C6AC4"/>
+  <!-- Price Tag -->
+  <path d="M44 20L24 40L20 36V24L32 12H44V20Z" fill="white"/>
+  <circle cx="38" cy="26" r="2" fill="#5C6AC4"/>
+  <!-- Sync Arrows -->
+  <path d="M32 44C38.6274 44 44 38.6274 44 32H48L42 24L36 32H40C40 36.4183 36.4183 40 32 40C27.5817 40 24 36.4183 24 32H20C20 38.6274 25.3726 44 32 44Z" fill="white"/>
+</svg>
