@@ -6,6 +6,7 @@ import {
   FormLayout,
   TextField,
   Button,
+  Checkbox,
 } from "@shopify/polaris";
 import { TitleBar } from "@shopify/app-bridge-react";
 import { useState } from "react";
@@ -17,6 +18,7 @@ export default function SettingsPage() {
     username: "",
     password: "",
   });
+  const [isEnabled, setIsEnabled] = useState(false);
 
   const handleChange = (value: string, field: keyof typeof formData) => {
     setFormData((prev) => ({ ...prev, [field]: value }));
@@ -29,6 +31,11 @@ export default function SettingsPage() {
         <Layout.Section>
           <Card>
             <BlockStack gap="400">
+              <Checkbox
+                label="Enable Sync"
+                checked={isEnabled}
+                onChange={setIsEnabled}
+              />
               <FormLayout>
                 <TextField
                   label="Customer name (Company name)"
