@@ -1,9 +1,9 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
-client_id = "998dab9160ed1ddf4a6abcad288c53cd"
+client_id = "446b46ebb9d95fb182d5ac9566aa1f2b"
 name = "pricer-sync-shahriar"
-handle = "pricer-sync-shahriar-2"
-application_url = "https://grants-brisbane-sky-resident.trycloudflare.com"
+handle = "pricer-sync-shahriar-3"
+application_url = "https://assist-pregnancy-pan-louisiana.trycloudflare.com"
 embedded = true
 
 [build]
@@ -13,23 +13,15 @@ automatically_update_urls_on_dev = true
 [webhooks]
 api_version = "2025-04"
 
-  [[webhooks.subscriptions]]
-  topics = [ "app/uninstalled" ]
-  uri = "/webhooks/app/uninstalled"
-
-  [[webhooks.subscriptions]]
-  topics = [ "app/scopes_update" ]
-  uri = "/webhooks/app/scopes_update"
-
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
 scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://grants-brisbane-sky-resident.trycloudflare.com/auth/callback",
-  "https://grants-brisbane-sky-resident.trycloudflare.com/auth/shopify/callback",
-  "https://grants-brisbane-sky-resident.trycloudflare.com/api/auth/callback"
+  "https://assist-pregnancy-pan-louisiana.trycloudflare.com/auth/callback",
+  "https://assist-pregnancy-pan-louisiana.trycloudflare.com/auth/shopify/callback",
+  "https://assist-pregnancy-pan-louisiana.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
